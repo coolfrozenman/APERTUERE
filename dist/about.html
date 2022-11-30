@@ -4,15 +4,103 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>about</title>
-	<link rel="stylesheet" href="css/style.min.css?_v=20221115151036">
+	<meta name="description" content="photo studio">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&family=Poppins&display=swap&_v=20221130160638"
+		rel="stylesheet">
+	<title>aperture</title>
+	<link rel="stylesheet" href="css/style.min.css?_v=20221130160638">
 </head>
 <body>
-	<header class="header"></header>
+	<header class="header">
+    <nav class="header__nav">
+        <a href="/" class="logo" aria-label="logo">
+            <svg class="logo__svg">
+                <use href="./img/sprite.svg#logo"></use>
+            </svg>
+        </a>
+        <ul class="header__items">
+            <li class="header__item"><a href="/" class="header__nav-link" aria-label="featured images">Featured
+                    images</a></li>
+            <li class="header__item"><a href="/" class="header__nav-link" aria-label="Gear cage">Gear cage</a></li>
+            <li class="header__item"><a href="/" class="header__nav-link" aria-label="contact">Contact</a></li>
+            <li class="header__item header__button"><a href="/" class="header__button-link"
+                    aria-label="get template">Get template</a></li>
+        </ul>
+    </nav>
+</header>
 	<main>
 	</main>
-	<footer>
-	<script src="js/app.min.js?_v=20221115151036"></script>
+	<footer class="footer">
+	<nav class="footer__nav">
+		<div class="footer__logo">
+			<a href="/" class="logo" aria-label="logo">
+				<svg class="logo__svg">
+					<use href="./img/sprite.svg#logo"></use>
+				</svg>
+			</a>
+			<p class="footer__logo-text">Photographers & videographers capturing the world around us.</p>
+		</div>
+		<div class="footer__items">
+			<ul class="footer__business-items">
+				<li class="footer__title">Business areas</li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Product Photography</a></li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Architecture Photography</a></li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Drone Photography</a></li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Wildlife Photography</a></li>
+			</ul>
+			<ul class="footer__page-items">
+				<li class="footer__title">Pages</li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Gear cage</a></li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Featured images</a></li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Contact</a></li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Style guide</a></li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Instructions</a></li>
+				<li class="footer__item"><a href="/" class="footer__item-link">Changelog</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section class="footer__subscribe">
+		<div class="subscribe__container">
+			<h3 class="subscribe__title">Subscribe to our newsletter</h3>
+			<p class="subscribe__text">Read about all the things we do.</p>
+		</div>
+		<a href="/" class="footer__button">
+
+			<span class="footer__button-text">Subscribe</span>
+			<div class="footer__button-item"></div>
+		</a>
+
+	</section>
+	<section class="footer__copyrighte">
+		<p class="copyrighte__text">site layout by Dmytro Morozov</p>
+		<ul class="copyrighte__items">
+			<li class="copyrighte__item">
+				<a href="/" class="copyrighte__link" aria-label="twitter">
+					<svg class="copyrighte__svg">
+						<use href="../img/sprite.svg#twitter"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="copyrighte__item">
+				<a href="/" class="copyrighte__link" aria-label="instagram">
+					<svg class="copyrighte__svg">
+						<use href="../img/sprite.svg#insta"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="copyrighte__item">
+				<a href="/" class="copyrighte__link" aria-label="FaceBook">
+					<svg class="copyrighte__svg">
+						<use href="../img/sprite.svg#fb"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<script src="js/app.min.js?_v=20221130160638"></script>
+
 </footer>
 </body>
 </html>

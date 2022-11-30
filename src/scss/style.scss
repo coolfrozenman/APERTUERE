@@ -1,3 +1,25 @@
-@import './vendors/normalize';
+@import "./vendors/normalize";
 
-@import './base/module';
+@import "./base/module";
+
+@import "./utils/media.scss";
+//HEADER
+@import "./components/header.scss";
+//TITLELIST
+@import "./layout/titlelist.scss";
+//GALLERY
+@import "./layout/gallery.scss";
+//SUNSET
+@import "./components/sunset.scss";
+//TOOLS
+@import "./layout/tools.scss";
+//LEAFS
+@import "./components/leafs.scss";
+//CLIENTS
+@import "./layout/clietns.scss";
+//STARS
+@import "./components/srars.scss";
+//HELP
+@import "./components/help.scss";
+//FOOTER
+@import "./components/footer.scss";
