@@ -8,7 +8,7 @@
     "dev": "gulp",
     "build": "gulp build --build",
     "sprite": "gulp sprite"
-  },
+  },"deploy": "gh-pages -d dist"
   "author": "Andrey Nazarenko <Limelaudio@gmail.com>",
   "license": "ISC",
   "devDependencies": {
@@ -39,5 +39,8 @@
     "webp-converter": "2.2.3",
     "webpack": "latest",
     "webpack-stream": "latest"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
